@@ -24,7 +24,14 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## Update History (Current Latest Version: **1.12.0**)
+## Update History (Current Latest Version: **1.12.1**)
+
+---
+
+### v1.12.1 (2026.01.12) — Nabal & Nagak: Velocity Layers Added & Sound Expanded
+
+- **Nabal & Nagak Library Update:** Added new audio samples to the Nabal and Nagak libraries.
+- **Velocity Layers Applied:** Implemented velocity layers to allow sound character to change based on playing strength, resulting in a much richer and more realistic sound.
 
 ---
 
@@ -40,8 +47,7 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 #### Mono & Poly Library Integration
 - The previously separated **Mono (monophonic)** and **Poly (polyphonic)** libraries have been merged into a single library.
 - After loading an instrument, you can select **Mono/Poly** directly within the interface.
-- **Applied libraries:**  
-  `Ajaeng (Jungak)`, `Ajaeng (Sanjo)`, `Haegeum`, `Danso`, `Daegeum (Jungak)`, `Daegeum (Sanjo)`,  
+- **Applied libraries:** `Ajaeng (Jungak)`, `Ajaeng (Sanjo)`, `Haegeum`, `Danso`, `Daegeum (Jungak)`, `Daegeum (Sanjo)`,  
   `Daepiri`, `Hoon`, `Jeog`, `Ji`, `Nabal`, `Nagak`, `Piri (Dang)`, `Piri (Hyang)`, `Piri (Se)`,  
   `So`, `Sogeum`, `Taepyeongso`, `Tungso`, `Yak`
 
@@ -78,11 +84,9 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 ### v1.11.4 (2025.11.05) — Percussion Manual Update & Cinematic Note Fixes
 
 #### Percussion Manual (All) Review & Revisions
-- **Fixed octave notation error:**  
-  A mix-up between **Concert Pitch (C1=24)** and **Computer programming standard (C2=36)** caused the percussion manuals (including Cinematic) to be written **one octave higher** than actual. This has been corrected.  
+- **Fixed octave notation error:** A mix-up between **Concert Pitch (C1=24)** and **Computer programming standard (C2=36)** caused the percussion manuals (including Cinematic) to be written **one octave higher** than actual. This has been corrected.  
   - Example: `Chuk D7 -> D6`
-- **Added missing information:**  
-  Added missing instrument placement info for the **Temple & Ritual** library.
+- **Added missing information:** Added missing instrument placement info for the **Temple & Ritual** library.
 
 #### Cinematic Library: Partial Note Mapping Changes
 - Updated some notes for more natural performance:
