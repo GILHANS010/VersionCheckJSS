@@ -14,7 +14,7 @@ Sincerely,
 
 ---
 
-## Added: Update Check File (`checkVersion.html`)
+### Added: Update Check File (`checkVersion.html`)
 
 Starting from **v1.5.1**, the file `checkVersion.html` is automatically included in the folder.
 
@@ -24,24 +24,21 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## Update History (Current Latest Version: **1.12.1**)
+## Update History (Current Latest Version: 1.12.2)
 
+---
 
 ### v1.12.2 (2026.03.28) — Convolution Reverb Equalization & Audio Capacity Optimization
-**Convolution Reverb Equalization via Impulse Response Data Enhancement
-- Remixed the IR (Impulse Response) audio files based on loudness. This ensures a much more uniform and balanced sound when switching between different reverb types.
 
-**Audio Capacity Optimization
-- Drastically reduced the file size of the instruments through a lossless audio optimization method. You can now enjoy the exact same high-quality sound with a significantly smaller storage footprint.
+- Convolution Reverb Equalization via Impulse Response Data Enhancement: Remixed the IR (Impulse Response) audio files based on loudness. This ensures a much more uniform and balanced sound when switching between different reverb types.
+- Audio Capacity Optimization: Drastically reduced the file size of the instruments through a lossless audio optimization method. You can now enjoy the exact same high-quality sound with a significantly smaller storage footprint.
 
 ---
 
 ### v1.12.1 (2026.01.12) — Nabal & Nagak: Velocity Layers Added & Sound Expanded
 
-**Nabal & Nagak Library Update:
-- Added new audio samples to the Nabal and Nagak libraries.
-**Velocity Layers Applied
-- Implemented velocity layers to allow sound character to change based on playing strength, resulting in a much richer and more realistic sound.
+- Nabal & Nagak Library Update: Added new audio samples to the Nabal and Nagak libraries.
+- Velocity Layers Applied: Implemented velocity layers to allow sound character to change based on playing strength, resulting in a much richer and more realistic sound.
 
 ---
 
