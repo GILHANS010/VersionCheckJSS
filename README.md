@@ -24,7 +24,24 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## Update History (Current Latest Version: 1.12.2)
+## Update History (Current Latest Version: 1.13.0)
+
+### v1.13.0 (2026.05.09) — Latest Decent Sampler Engine Compatibility Patch & Modulation Optimization
+
+#### Full Compatibility & Optimization for the Latest Decent Sampler Engine
+- Fully optimized the internal XML structure to align with the recently updated Decent Sampler engine. Applied compatibility patches to ensure the audio engine runs more stably and smoothly in the new player environment.
+
+#### Vibrato Modulation Structure Enhancement
+- Precisely redesigned the LFO modulation used for vibrato (Nonghyeon) at the instrument sound group level (`GROUP_TUNING`) to meet the latest engine's recommended specifications.
+- This allows for smoother and more natural vibrato textures during polyphonic playing and articulation transitions.
+
+#### Loop Point & Crossfade Precision Calibration
+- Finely calibrated the sample Loop Points and Crossfade sections at the frame level for the **Haegeum**, **Daegeum (Sanjo)**, and **Jeog** libraries.
+- The sustain and resonance of long notes are now much more seamless and natural.
+
+#### Improved Percussion CC Control & Keyswitch Responsiveness
+- Intuitively and efficiently optimized the `CC#1` control mapping for percussion libraries (such as **Cinematic** and **Samulnori**) and the Keyswitch On/Off routing structure for woodwinds (**Saenghwang**, **Taepyeongso**).
+- Significantly improved the overall operational responsiveness of the UI controls.
 
 ---
 
