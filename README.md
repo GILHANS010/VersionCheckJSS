@@ -24,7 +24,19 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## Update History (Current Latest Version: 1.13.0)
+## Update History (Current Latest Version: 1.13.1)
+
+### v1.13.1 (2026.05.10) — Notation Software (Dorico, etc.) Playback Stability Patch & Keyswitch Structure Revamp
+
+#### Maximized Playback Stability in Notation Software
+- Completely redesigned the keyswitch routing structure to ensure 100% stable articulation transitions during playback in notation software like Dorico and Sibelius, even in environments with fast and complex MIDI data input.
+
+#### Optimized Articulation Control Structure for All Strings & Woodwinds (30 Libraries)
+- Updated from the previous indirect structure (where the sound changed via the UI menu display) to a **direct control structure**. Now, upon keyswitch input, the actual sound group changes instantly while simultaneously syncing the UI display.
+- This supports flawless articulation transitions without delays or errors, even during fast passages or when stopping and restarting playback.
+- **Applied to:** All 30 files across the Strings and Woodwinds libraries.
+
+---
 
 ### v1.13.0 (2026.05.09) — Latest Decent Sampler Engine Compatibility Patch & Modulation Optimization
 
