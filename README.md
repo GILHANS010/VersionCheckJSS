@@ -37,8 +37,8 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 #### Fixed Haegeum Vibrato / Expression MIDI Control Behavior
 - Fixed an issue in the **Haegeum** library where vibrato and expression control could feel linked or behave contrary to common MIDI controller expectations.
-- `CC#1` now controls the Vibrato UI control, which updates the vibrato LFO depth.
-- `CC#11` now controls expression/volume through the gain stage.
+- `CC#1` now controls expression/volume through the gain stage.
+- `CC#11` now controls the Vibrato UI control, which updates only the vibrato LFO depth (`MOD_AMOUNT`).
 - Adjusted the default vibrato LFO amount to prevent vibrato from being active by default when the instrument is loaded.
 
 #### Applied Libraries
@@ -620,8 +620,8 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 #### 해금 비브라토 / 익스프레션 MIDI 제어 동작 수정
 - **해금** 라이브러리에서 비브라토와 익스프레션 컨트롤이 서로 연결된 것처럼 느껴지거나, 일반적인 MIDI 컨트롤러 기대와 다르게 동작할 수 있던 문제를 수정했습니다.
-- `CC#1`은 이제 Vibrato UI control을 제어하며, 이를 통해 비브라토 LFO 깊이가 갱신됩니다.
-- `CC#11`은 이제 gain 단계를 통해 익스프레션/볼륨을 제어합니다.
+- `CC#1`은 이제 gain 단계를 통해 익스프레션/볼륨을 제어합니다.
+- `CC#11`은 이제 Vibrato UI control을 제어하며, 이를 통해 비브라토 LFO 깊이(`MOD_AMOUNT`)만 갱신됩니다.
 - 악기 로드 직후 비브라토가 기본으로 켜진 것처럼 보이지 않도록 기본 비브라토 LFO 양을 조정했습니다.
 
 #### 적용 라이브러리
