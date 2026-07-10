@@ -24,7 +24,21 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## Update History (Current Latest Version: 1.13.1)
+## Update History (Current Latest Version: 1.13.2)
+
+### v1.13.2 (2026.07.10) — Haegeum MIDI CC Control Separation Patch
+
+#### Fixed Haegeum Vibrato / Expression MIDI Control Behavior
+- Fixed an issue in the **Haegeum** library where vibrato and expression control could feel linked or behave contrary to common MIDI controller expectations.
+- `CC#1` now controls the vibrato LFO depth directly.
+- `CC#11` now controls expression/volume through the gain stage.
+- Adjusted the default vibrato LFO amount to prevent vibrato from being active by default when the instrument is loaded.
+
+#### Applied Libraries
+- `Haegeum (Mono)`
+- `Haegeum (Poly)`
+
+---
 
 ### v1.13.1 (2026.05.10) — Notation Software (Dorico, etc.) Playback Stability Patch & Keyswitch Structure Revamp
 
