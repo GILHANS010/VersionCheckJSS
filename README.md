@@ -31,7 +31,24 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## Update History (Current Latest Version: 1.13.2)
+## Update History (Current Latest Version: 1.14.0)
+
+### v1.14.0 (2026.09.22) — CC1 Dynamics & Offline Rendering Reliability Update
+
+#### Improved CC1 Dynamics and Offline Rendering Reliability
+
+- Improved Mod Wheel (`CC#1`) dynamics behavior across the Josun Series.
+- Improved the reliability of `CC#1` automation during Cubase Offline Export and Render in Place.
+- Presets now retain the same full output level as previous versions after loading, until the first `CC#1` event is received.
+- Improved dynamics consistency across legato and multi-group instruments while preserving existing articulations, relative volume balance, and mixer behavior.
+- Refined the `CC#1` dynamics range for smoother and more practical expressive control.
+
+#### MIDI Channel & System Requirements
+
+- `CC#1` Dynamics uses MIDI Channel 1.
+- Minimum required Decent Sampler version: 1.19.0.
+
+---
 
 ### v1.13.2 (2026.07.10) — Haegeum MIDI CC Control Separation Patch
 
@@ -614,7 +631,24 @@ Starting from **v1.5.1**, the file `checkVersion.html` is automatically included
 
 ---
 
-## 업데이트 기록 (현재 최신 버전: 1.13.2)
+## 업데이트 기록 (현재 최신 버전: 1.14.0)
+
+### v1.14.0 (2026.09.22) — CC1 다이내믹 및 오프라인 렌더링 안정성 업데이트
+
+#### CC1 다이내믹 및 오프라인 렌더링 안정성 개선
+
+- 조선 시리즈 전반의 Mod Wheel(`CC#1`) 다이내믹 동작을 개선했습니다.
+- Cubase Offline Export 및 Render in Place에서 `CC#1` 오토메이션이 더욱 안정적으로 반영되도록 개선했습니다.
+- 프리셋 로드 후 첫 `CC#1` 이벤트가 입력되기 전까지 기존 버전과 동일한 최대 출력 레벨을 유지하도록 개선했습니다.
+- 기존 아티큘레이션, 상대적 음량 밸런스 및 믹서 동작을 유지하면서 Legato 및 Multi-Group 악기의 다이내믹 일관성을 개선했습니다.
+- 보다 자연스럽고 실용적인 강약 표현을 위해 `CC#1` 다이내믹 범위를 조정했습니다.
+
+#### MIDI 채널 및 시스템 요구 사항
+
+- `CC#1` 다이내믹은 MIDI Channel 1에서 동작합니다.
+- 최소 요구 Decent Sampler 버전: 1.19.0
+
+---
 
 ### v1.13.2 (2026.07.10) — 해금 MIDI CC 제어 분리 패치
 
