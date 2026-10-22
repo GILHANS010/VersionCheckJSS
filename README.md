@@ -1,3 +1,15 @@
+## Official Changelog / 공식 변경 이력
+
+**Latest release notes:** [JOSUN SERIES Changelog](https://www.qlaudio.com/changelog/josun-series)
+
+**최신 업데이트 내역:** [홈페이지 공식 변경 이력](https://www.qlaudio.com/changelog/josun-series?lang=ko)
+
+The latest release notes are maintained on our website. The existing history below is retained for reference.
+
+최신 변경 이력은 홈페이지에서 확인해 주세요. 아래의 기존 업데이트 기록은 참고용으로 보존합니다.
+
+---
+
 <p align="center">
   <a href="#english-version"><kbd>English</kbd></a>
   <a href="#korean-version"><kbd>한국어</kbd></a>
